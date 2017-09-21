@@ -1,0 +1,12 @@
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\bin\Debug\netcoreapp2.0\PEV.deps.json
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\bin\Debug\netcoreapp2.0\PEV.runtimeconfig.json
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\bin\Debug\netcoreapp2.0\PEV.runtimeconfig.dev.json
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\bin\Debug\netcoreapp2.0\PEV.dll
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\bin\Debug\netcoreapp2.0\PEV.pdb
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.csprojResolveAssemblyReference.cache
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.csproj.CoreCompileInputs.cache
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.AssemblyInfoInputs.cache
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.AssemblyInfo.cs
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.dll
+C:\Users\luukw\Desktop\PEV project\PEV\PEV\obj\Debug\netcoreapp2.0\PEV.pdb
