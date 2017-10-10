@@ -16,7 +16,7 @@ namespace PEV.Models.AccountViewModels
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Display(Name = "Remember me?")]
+        [Display(Name = "Ondhoud mij?")]
         public bool RememberMe { get; set; }
     }
 }
