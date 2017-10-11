@@ -13110,13 +13110,15 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.Authentication.Google >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
+      "Microsoft.Extensions.Configuration.UserSecrets >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luukw\\.nuget\\packages\\": {},
+    "C:\\Users\\luuk\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13125,17 +13127,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\PEV.csproj",
+      "projectUniqueName": "C:\\Users\\luuk\\Desktop\\PEV\\PEV\\PEV\\PEV.csproj",
       "projectName": "PEV",
-      "projectPath": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\PEV.csproj",
-      "packagesPath": "C:\\Users\\luukw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\obj\\",
+      "projectPath": "C:\\Users\\luuk\\Desktop\\PEV\\PEV\\PEV\\PEV.csproj",
+      "packagesPath": "C:\\Users\\luuk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luuk\\Desktop\\PEV\\PEV\\PEV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\luukw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13173,6 +13175,14 @@
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.Extensions.Configuration.UserSecrets": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "2.0.0"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
