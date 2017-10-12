@@ -13116,7 +13116,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luukw\\.nuget\\packages\\": {},
+    "C:\\Users\\ybrom\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13125,17 +13125,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\PEV.csproj",
+      "projectUniqueName": "D:\\Users\\ybrom\\OneDrive\\Deltion17-18\\PEV\\PEV\\PEV\\PEV.csproj",
       "projectName": "PEV",
-      "projectPath": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\PEV.csproj",
-      "packagesPath": "C:\\Users\\luukw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luukw\\Desktop\\PEV project\\PEV\\PEV\\obj\\",
+      "projectPath": "D:\\Users\\ybrom\\OneDrive\\Deltion17-18\\PEV\\PEV\\PEV\\PEV.csproj",
+      "packagesPath": "C:\\Users\\ybrom\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\ybrom\\OneDrive\\Deltion17-18\\PEV\\PEV\\PEV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\luukw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ybrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
