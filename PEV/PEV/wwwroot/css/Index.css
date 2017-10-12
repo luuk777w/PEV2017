@@ -24,3 +24,8 @@
 .game-desc {
     min-height: 184px;
 }
+
+section {
+    box-shadow: 2px 2px 9px grey;
+    margin: 20px 0 20px 0;
+}
