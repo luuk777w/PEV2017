@@ -1,0 +1,26 @@
+﻿button {
+    background: #FF4081;
+    
+    /*position: absolute;*/
+    /*bottom: 0;
+    right: 0;*/
+    height: 200px;
+    width:100%;
+}
+.img-right {
+    /*position: absolute;*/
+    /*right:0;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    position: absolute;
+}
+
+.game-container {
+    min-height: 230px;
+}
+
+.game-desc {
+    min-height: 184px;
+}
