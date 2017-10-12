@@ -40,6 +40,10 @@
     border-color: #BDBDBD;
 }
 
+a {
+    color: #3F51B5;
+}
+
 footer {
     text-align: center;
     min-height: 75px;
