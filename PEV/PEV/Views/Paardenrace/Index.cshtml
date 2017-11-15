@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "Paardenrace";
+}
+
+@section Styles
+{
+    <link type="text/css" href="css/paardenrace.css"/>
+    
+    <style>
+
+        #time {
+            text-align: center;
+            font-size: 70px;
+            padding-bottom: 30px;
+        }
+        
+        #raceheader {
+            text-align: center;
+        }
+
+        #paardenSelectie {
+            margin: auto;
+            padding-bottom: 30px;
+        }
+
+        .btn-paardenSelectie {
+            background: #3F51B5;
+            color: white;
+        }
+        .btn-paardenSelectie:hover {
+            background: #FF4081;
+        }
+        .selected-paard {
+            background: #FF4081;
+        }
+            
+
+        .btn {
+            cursor: pointer;
+        }
+
+        #inzet {
+            width: 150px;
+            display: inline-block;
+        }
+
+    </style>
+}
+
+<h2>Paardenrace</h2>
+
+<h3 id="raceheader">De race is over:</h3>
+
+<h1 id="time">00:00:00</h1>
+
+<h3>Klik op een paard om er op in te zetten:</h3>
+
+<div class="btn-group" id="paardenSelectie" role="group" aria-label="Basic example">
+    <button type="button" id="p1" class="btn btn-paardenSelectie">Paard 1</button>
+    <button type="button" id="p2" class="btn btn-paardenSelectie">Paard 2</button>
+    <button type="button" id="p3" class="btn btn-paardenSelectie">Paard 3</button>
+    <button type="button" id="p4" class="btn btn-paardenSelectie">Paard 4</button>
+    <button type="button" id="p5" class="btn btn-paardenSelectie">Paard 5</button>
+    <button type="button" id="p6" class="btn btn-paardenSelectie">Paard 6</button>
+    <button type="button" id="p7" class="btn btn-paardenSelectie">Paard 7</button>
+    <button type="button" id="p8" class="btn btn-paardenSelectie">Paard 8</button>
+    <button type="button" id="p9" class="btn btn-paardenSelectie">Paard 9</button>
+    <button type="button" id="p10" class="btn btn-paardenSelectie">Paard 10</button>
+    <button type="button" id="p11" class="btn btn-paardenSelectie">Paard 11</button>
+    <button type="button" id="p12" class="btn btn-paardenSelectie">Paard 12</button>
+</div>
+
+<h3>Hoeveel wil je inzetten?</h3>
+
+    <input type="number" class="form-control" id="inzet" disabled="disabled">Punten
+    <br/>
+    <br/>
+    <button class="btn btn-primary" id="submit" disabled="disabled">Submit</button>
+
+
+
+@section Scripts
+{
+    <script src="js/paardenrace.js"></script>
+    
+    <script>
+
+        var stored = null;
+
+        $(".btn-paardenSelectie").click(function () {
+            if (stored != null) {
+                $(stored).removeClass("selected-paard");
+            }
+
+            if (stored == null) {
+                $("#submit").removeAttr('disabled');
+                $("#inzet").removeAttr('disabled');
+            }
+
+            $(this).addClass("selected-paard");
+            stored = this;
+        });
+
+        $("#submit").click(function () {
+
+            console.log("test");
+
+            var data = { inzet: $("#inzet").val(), paard: "p" + $(stored).attr('id').substring(1)};
+
+            $.ajax({
+                type: "POST",
+                url: "paardenrace/create",
+                data: data,                
+                error: function (result) {
+                    console.log(result);
+                },
+                success: function (result) {
+                    console.log(result);
+                }
+            });
+
+        });
+
+    </script>
+}
