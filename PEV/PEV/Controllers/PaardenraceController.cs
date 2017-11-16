@@ -22,7 +22,18 @@ namespace PEV.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string userid = _userManager.GetUserId(HttpContext.User);
+
+            Paardenrace mostRecentRace;
+
+            using (var db = new ApplicationDbContext())
+            {
+
+                mostRecentRace = db.Paardenraces.OrderByDescending(i => i.gameid).FirstOrDefault();
+
+                return Content(mostRecentRace.gameid.ToString());
+
+            }
         }
 
         [HttpPost]
@@ -52,6 +63,6 @@ namespace PEV.Controllers
 
             return Content("Success!");
         }
-       
+
     }
 }
