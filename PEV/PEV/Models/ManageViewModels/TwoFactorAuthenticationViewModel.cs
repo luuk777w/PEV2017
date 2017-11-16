@@ -8,6 +8,7 @@ namespace PEV.Models.ManageViewModels
 {
     public class TwoFactorAuthenticationViewModel
     {
+        public int Id { get; set; }
         public bool HasAuthenticator { get; set; }
 
         public int RecoveryCodesLeft { get; set; }
